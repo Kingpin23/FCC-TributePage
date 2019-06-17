@@ -1,0 +1,70 @@
+#main{
+    height: 100%;
+}
+#image-div>img {
+    position: absolute;
+    width: 458px;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    
+}
+
+#image-caption{
+    visibility: hidden;
+}
+
+#tribute-info{
+position:absolute;
+height: 1080px;
+left: 458px;
+top: 0px;
+background: #E0E0E0;
+padding-left:15px;
+}
+
+#title > h1{
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+color: #FF1818;
+margin: 0;
+font-family: 'Ropa Sans', sans-serif;
+}
+
+#title>h2{
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+margin: 0;
+color: rgba(0, 0, 0, 0.78);
+font-family: 'Ropa Sans', sans-serif;
+margin-bottom: 60PX;
+}
+
+.part-title{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+    width: 85%;
+}
+
+.part-content{
+    font-family: 'Karma', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    padding-right: 200PX;
+}
+
+.line {
+    border-top: 5px solid #E70D0D;
+    width: 85%;
+}
+
